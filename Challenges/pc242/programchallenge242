@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int calculate_weeks(int people, int plants)
+{
+    int weeks = 1;
+    int fruits = 0;
+
+    while(fruits < people)
+    {
+        fruits = plants + fruits;
+        plants = plants + fruits;
+        weeks++;
+    }
+    return weeks;
+}
+
+int main()
+{
+    int num_weeks1 = calculate_weeks(200, 15);
+    int num_weeks2 = calculate_weeks(50000, 1);
+    int num_weeks3 = calculate_weeks(150000, 250);
+    cout << "You have this many weeks to survive: " << num_weeks1 << endl;
+    cout << "You have this many weeks to survive: " << num_weeks2 << endl;
+    cout << "You have this many weeks to survive: " << num_weeks3 << endl;
+    return 0;
+}
