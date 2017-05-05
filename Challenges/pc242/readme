@@ -27,12 +27,12 @@ Week
 At week 1 we have 1 plant giving 0 fruits, because it has just been planted.
 When week 2 comes along we have 1 plant that gives off a fruit and then we use that fruit to plant plant 2.
 Then in week 3 we have 2 fruits from plant 1, 1 from plant 2, so we can plant 3 new plants.
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 Challenge Input
 200 15
 50000 1
 150000 250
----------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 Challenge Output
 5
 14
